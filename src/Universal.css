@@ -1,0 +1,52 @@
+/* Universal Css - To be embeded in every stylsheet */
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Reset */
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Remove Dots From Unorderd List */
+ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/* Remove Underline From Anchor Tag */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Remove Outline */
+input {
+    outline: none;
+}
+
+/* Average Margin Padding  */
+.mar-pad {
+    padding: 4% 3%;
+    margin: 4% 5%;
+}
+
+/* Center Any Element  */
+.cen-ele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center Any Element - Horizontly */
+.cen-ele-hor {
+    display: flex;
+    align-items: center;
+}
+
+/* Center Any Element - Vertically */
+.cen-ele-ver {
+    display: flex;
+    justify-content: center;
+}
