@@ -20,18 +20,6 @@ export const Coins = () => {
     return (
         <div >
             <div className="App">
-                {/* <div className="cryptoHeader">
-                    <input type="text" placeholder='search crypto' onChange={(event) => {
-                        setSerchWord(event.target.value);
-                    }} />
-                </div> */}
-                <div className='container my-3'>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(event) => {
-                            setSerchWord(event.target.value);
-                        }} />
-                    </form>
-                </div>
 
                 <div className="d-flex flex-wrap container display-coin" >
                     {/* cryptoDisplay  */}

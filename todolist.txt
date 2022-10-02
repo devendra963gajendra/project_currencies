@@ -1,9 +1,0 @@
-   
-things to be added in these site so that it will be in a working condition
-
-1.  Top loading bar
-3.  scroll lazy loading
-1.  Navbar
-3.   adding more data in site like  24h , volume etc
-2.  using another api
-6.  Night mode
