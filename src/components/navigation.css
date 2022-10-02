@@ -55,3 +55,53 @@
 .form-control {
     outline: none;
 }
+
+/* media queries section  */
+
+@media screen and (max-width: 880px) {
+
+    .ul-section,
+    .hero-section {
+        display: none;
+    }
+
+    .main-nav {
+        grid-template-columns: 25px 1fr 1fr 25px;
+        grid-template-rows: 63px 2fr;
+    }
+
+    .logo {
+        grid-column: 2/3;
+        /* margin-left: 4%; */
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .mobile-ul {
+        background-color: rgb(249, 248, 245);
+        grid-row: 2/3;
+        grid-column: 2/4;
+        position: relative;
+        z-index: 1;
+        padding-left: 0%;
+    }
+
+    .mobile-ul ul {
+        padding-left: 0%;
+    }
+
+    .mobile-ul li {
+        margin-left: 0%;
+        height: 20%;
+        box-shadow: 0 6px 23px -1px rgba(38, 34, 17, 0.1);
+        /* background-color: aqua; */
+        width: 100%;
+        margin: 2% 0%;
+        padding: 3% 0%;
+    }
+
+}
