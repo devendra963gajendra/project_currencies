@@ -32,8 +32,7 @@
     .coin {
       width: 330px;
       height: 267px;
-      background-color: rgb(235 144 144);
-      /*color: white; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       border-radius: 10px;
       margin: 20px;
       text-align: center;
